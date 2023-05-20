@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cysimtom"
+version = "0.1.0"
+description = "Simulador de Redes Ópticas Elásticas com cython"
+authors = ["Matheus Lôbo <matheusls@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
